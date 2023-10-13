@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: hsl(216, 12%, 8%);
+}
+
+main{
+    width: 90%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color:  hsl(213, 19%, 18%);
+
+
+    border-radius: 20px;
+}
+#avali{
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    margin-top: 30px;
+
+}
+#img{
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color:hsl(210, 5%, 25%);
+
+    border-radius: 50%;
+}
+
+#pergunda{
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+    color: white;
+
+    /* margin-top: 10px; */
+}
+
+#subper{
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Russo One', sans-serif;
+    font: bold;
+}
+#expliq{
+    font-family: 'Russo One', sans-serif;
+}
+
+#buts{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 20px;
+}
+#button{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+#button button{
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+    border: none;
+
+    background-color: hsl(210, 5%, 25%);
+    color: rgba(255, 255, 255, 0.295);
+}
+
+#but-submit{
+    height: 35%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#but-submit button{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 20px;
+    border: none;
+
+    background-color:  hsl(25, 97%, 53%);
+    color: white;
+
+    font-family: 'Russo One', sans-serif;
+    font-size: 20pxb;
+}
+#button button:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+#button button:focus{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+#but-submit button:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(25, 61%, 53%);
+}
+
+#final{
+    width: 100%;
+    height: 100%;
+    /* display: block; */
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#img2{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    gap: 20px;
+ 
+}
+#img2 p{
+    width: 60%;
+    height: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: hsla(217, 12%, 63%, 0.233);
+    color: hsl(25, 61%, 53%);
+
+    border-radius: 20px;
+
+    gap: 10px;
+
+    
+}
+
+#infs02{
+    width: 80%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#infs02 h1{
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+#infs02 p{
+    color: rgba(255, 255, 255, 0.616);
+    text-align: center;
+}
